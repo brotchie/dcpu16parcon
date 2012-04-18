@@ -1,0 +1,7 @@
+
+:main
+    set a, 'H'
+    set i, 0x8000
+    set [i], a
+
+    sub pc, 1
